@@ -15632,3 +15632,228 @@ Started GET "/assets/boxful.jpg" for 127.0.0.1 at 2015-03-26 06:21:52 +0800
 
 
 Started GET "/assets/font-awesome/fontawesome-webfont.woff2" for 127.0.0.1 at 2015-03-26 06:21:52 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 94ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/github-activity-0.1.1.min.css?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/octicons.min.css?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/angular-animate.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/angular-resource.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/angular-ui-bootstrap-tpls.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/github-activity-0.1.1.min.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/mustache.min.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/denischeung.jpg" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/lolstatsdb.jpg" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/recipedb.jpg" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/boxful.jpg" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff2" for 127.0.0.1 at 2015-03-26 06:22:46 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 85ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/octicons.min.css?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/github-activity-0.1.1.min.css?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/angular-animate.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/angular-resource.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/github-activity-0.1.1.min.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/angular-ui-bootstrap-tpls.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/mustache.min.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/denischeung.jpg" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/lolstatsdb.jpg" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/recipedb.jpg" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/boxful.jpg" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff2" for 127.0.0.1 at 2015-03-26 06:22:50 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-26 06:40:05 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 97ms (Views: 97.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/github-activity-0.1.1.min.css?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/variables.css?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/octicons.min.css?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/angular-animate.js?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/angular-resource.js?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/angular-ui-bootstrap-tpls.js?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/github-activity-0.1.1.min.js?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/mustache.min.js?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/denischeung.jpg" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/lolstatsdb.jpg" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/recipedb.jpg" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/boxful.jpg" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff2" for 127.0.0.1 at 2015-03-26 06:40:06 +0800
