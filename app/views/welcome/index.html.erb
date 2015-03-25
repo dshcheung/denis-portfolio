@@ -1,12 +1,93 @@
-<header>
-  <div class="container">
-    <img src="" alt="Denis Cheung">
-    <div>
-      <h1>Denis Cheung</h1>
-      <h2>Web App Developer</h2>
-      <ul>
-        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+<header class="header">
+  <div class="container header-content">
+    <img class="profile-image pull-left" src="<%= asset_path('denischeung.jpg') %>" alt="Denis Cheung">
+    <div class="profile-content pull-left">
+      <h1 class="name">Denis Cheung</h1>
+      <h2 class="title">Web App Developer</h2>
+      <ul class="links">
+        <li><a href="mailto:d.s.h.cheung@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+        <li><a href="https://github.com/dshcheung/"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://hk.linkedin.com/in/dshcheung/en"><i class="fa fa-linkedin-square"></i></a></li>
+        <li><a href="https://www.facebook.com/dshcheung"><i class="fa fa-facebook-official"></i></a></li>
       </ul>
     </div>
   </div>
 </header>
+
+<div class="container section-content">
+  <div class="row">
+    <div class="primary col-md-12 col-sm-12 col-xs-12">
+      <section class="about-me-section">
+        <h2>About Me</h2>
+        <div>
+          <p>Born in Canada, raised in Hong Kong. Studied in Hong Kong until grade 10, went to St. Andrew's College in Canada for final 2 years of high school, and graduated from Durham University with BA Business Finance degree.</p>
+          <p>I have been switching industries back and forward after graduation. I first worked in finance in Manulife right after graduation. Then went to ZOOQ, a China focused online B2C ecommerce website, as a tech/business developer. Then, for a brief time, went to back office in Square Mile Advisors before deciding to take a course and settle in tech.</p>
+          <p>The course I took was Web Development Immversive (WDI) with General Assembly. Majority of the course content was based on Ruby on Rails, Angular, HTML, CSS, Javascript, jQuery, Scrapping, SQL, and many more language and libaries that I cannot count. However the most valuable lessons I learned is the fundamentals of programming and app creation allowing me to pick up any language/libraries quickly.</p>
+        </div>
+      </section>
+      <section class="project-section">
+        <h2>Latest Projects</h2>
+        <div class="project-content">
+          <h3 class="project-title">
+            <a href="http://www.lolstatsdb.com">LoLStatsDB</a>
+          </h3>
+          <div class="project-summary">
+            <p>User-Friendly one-stop site for League of Legends players to compare statistics</p>
+          </div>
+          <img src="<%= asset_path('lolstatsdb.jpg') %>" alt="lolstatsdb">
+          <div class="project-description">
+            <p>A centralized Summoner Statistic for the game League of Legends. The reason I created this website is because many similar website have their own unique stats derived from the same population, therefore, I want to merge all these unique stats into an unified website.</p>
+          </div>
+        </div>
+        <hr class="divider">
+        <div class="project-content"> 
+          <h3 class="project-title">
+            <a href="http://www.recipedb.me">RecipeDB.me</a>
+          </h3>
+          <div class="project-summary">
+            <p>Comprehensive navigation and accurate recipe filtering system</p>
+          </div>
+          <img src="<%= asset_path('recipedb.jpg') %>" alt="recipedb">
+          <div class="project-description">
+            <p>A collaboration project to create a centralized database for recipes with the best filter system. Originally we decided to clone <a href="http://www.allrecipes.com">www.allrecipes.com</a>, but we realized their filter system UX was not up to par. So we decided to clone <a href="http://www.airbnb.com">www.airbnb.com</a> filter system.</p>
+          </div>
+        </div>
+        <hr class="divider">
+        <div class="project-content">
+          <h3 class="project-title">
+            <a href="http://boxful.herokuapp.com">Boxful</a>
+          </h3>
+          <div class="project-summary">
+            <p>Storage box delivery/retrieval/warehousing management system</p>
+          </div>
+          <img src="<%= asset_path('boxful.jpg') %>" alt="boxful">
+          <div class="project-description">
+            <p>My first project was cloning Boxful. Boxful is an existing Hong Kong based website <a href="http://www.boxful.com">www.boxful.com</a>. The reason I pick to clone this website is because the back-end was fun to recreate. The back-end include: keeping track of individual boxes, status log for admins, and different levels admins (accountants, deliverer, superadmin).</p>
+          </div>
+        </div>
+      </section>
+      <section class="git-section">
+        <h2>My GitHub</h2>
+        <div>
+          <div id="feed"></div>
+        </div>
+      </section>
+    </div>
+    <!-- <div class="secondary col-md-4 col-sm-12 col-xs-12">
+      <section class="skills-section">
+        <h2>Skills</h2>
+
+      </section>
+      <section class="experiences-section">
+        <h2>Education/Experiences</h2>
+
+      </section>
+    </div> -->
+  </div>
+</div>
+
+<footer>
+  <div class="container text-center">
+    <span>Website by</span> Denis Cheung <span>referencing from</span> <a href="http://themes.3rdwavemedia.com">Xiaoyin Riley</a>
+  </div>
+</footer>
