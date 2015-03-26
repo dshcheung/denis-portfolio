@@ -14,7 +14,7 @@ body {
       img.profile-image {
         width: 180px;
         border-radius: 90px;
-        margin-right: 40px;
+        margin-right: 20px;
       }
       div.profile-content {
         display: inline;
@@ -57,6 +57,14 @@ body {
           }
         }
       }
+      div.profile-quote {
+        margin-top: 30px;
+        p {
+          font-size: 26px;
+          font-weight: 400; 
+          font-style: italic;
+        }
+      }
     }
   }
 
@@ -81,7 +89,7 @@ body {
             }
           }
         }
-
+        //Primary section stuff
         section.project-section {
           hr {
             margin: 20px 0 60px;
@@ -145,7 +153,70 @@ body {
             }
           }
         }
+        //Secondary section stuff
+        section.skills-section {
+          div.skills-summary {
 
+          }
+          div.skills-tags {
+            display: inline-block;
+            h3 {
+              font-size: 20px;
+              color: rgb(95, 107, 119);
+            }
+            div {
+              display: inline-block;
+              border: 1px solid black;
+              border-radius: 5px;
+              background-color: rgb(178,244,247);
+              padding: 5px;
+              margin: 5px;
+            }
+            div.learning {
+              background-color: rgb(102, 203, 140);
+            }
+          }
+        }
+        section.experiences-section {
+          div.experiences-content {
+            div.experience {
+              margin-bottom: 30px;
+              h3 {
+                font-size: 16px;
+                font-weight: 700;
+                color: rgb(119, 132, 146);
+              }
+              h4 {
+                font-size: 13px;
+                font-weight: 600;
+                color: rgb(153, 153, 153);
+                padding-left: 25px;
+              }
+            }
+            div.experience:last-child {
+              margin: 0;
+            }
+          }
+        }
+        section.languages-section {
+          div.language-content {
+            ul {
+              li {
+                span {
+                  font-size: 16px;
+                  color: rgb(153, 153, 153);
+                  strong {
+                    font-size: 16px;
+                    color: rgb(119, 132, 146);
+                  }
+                  i {
+                    color: rgb(121, 209, 154);
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -157,7 +228,7 @@ body {
       color: rgb(161, 170, 180);
     }
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 991px) {
     div.header-content {
       text-align: center;
       img.profile-image {
@@ -167,6 +238,13 @@ body {
       div.profile-content {
         float: none !important;
         text-align: center;
+      }
+      div.profile-quote {
+        float: none !important;
+        text-align: center;
+        p:last-child {
+          float: none !important;
+        }
       }
     }
   }
