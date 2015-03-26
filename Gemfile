@@ -37,3 +37,6 @@ gem 'font-awesome-sass'
 
 # angular ui bootstrap
 gem 'angular-ui-bootstrap-rails'
+
+# google analystics
+gem 'google-analytics-rails'

@@ -34,4 +34,7 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  # replace this with your tracker code
+  GA.tracker = "UA-61198049-1"
 end
